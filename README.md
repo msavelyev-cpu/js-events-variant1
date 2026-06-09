@@ -1,16 +1,83 @@
-# React + Vite
+# JS Events Variant 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Опис проєкту
 
-Currently, two official plugins are available:
+Веб-застосунок на React, який містить:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Контактну форму з live-валідацією полів
+* Прогрес-бар заповнення форми
+* Блокування кнопки Submit до успішної валідації
+* Пошук по списку студентів у реальному часі
+* Підсвічування знайденого тексту
+* Повідомлення "Не знайдено" за відсутності результатів
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Функціонал
 
-## Expanding the ESLint configuration
+### Контактна форма
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Поля форми:
+
+* Ім'я
+* Email
+* Телефон (+380XXXXXXXXX)
+* Повідомлення (20–500 символів)
+
+Можливості:
+
+* Live-валідація під час введення
+* Debounce 300 мс
+* Відображення помилок
+* Візуальний feedback (зелена/червона рамка)
+* Прогрес-бар заповнення
+* Кнопка Submit активується лише після успішної валідації
+
+---
+
+### Пошук
+
+Можливості:
+
+* Список із 30 студентів
+* Пошук у реальному часі
+* Debounce 300 мс
+* Підсвічування знайденого тексту
+* Повідомлення "Не знайдено"
+
+---
+
+## 🛠 Технології
+
+* React
+* JavaScript (ES6+)
+* Vite
+* CSS3
+
+---
+
+## ▶ Запуск проєкту
+
+Встановлення залежностей:
+
+```bash
+npm install
+```
+
+Запуск проєкту:
+
+```bash
+npm run dev
+```
+
+Після запуску відкрити:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 👨‍💻 Автор
+
+Михайло Савельєв
