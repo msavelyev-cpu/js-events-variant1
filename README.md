@@ -1,3 +1,10 @@
+
+
+
+https://github.com/user-attachments/assets/81056a76-2d58-42e6-9801-3a065b54db6c
+
+
+
 # JS Events Variant 1
 
 ## 📌 Опис проєкту
